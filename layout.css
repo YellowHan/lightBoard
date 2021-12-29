@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: 'Jua', sans-serif;
+}
+.container {
+  width: 90vw;
+  margin: auto;
+
+}
+#board {
+  height: 60vh;
+  margin: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 10rem;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+  position: relative;
+}
+#text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  background: linear-gradient(to right bottom, yellow, rgb(255, 255, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+#userText {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background: black;
+  font-size: 5rem;
+  color: white;
+}
+.buttons {
+  text-align: center;
+}
+.buttons input {
+  color: white;
+  background: black;
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#save {
+  display: none;
+}
