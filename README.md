@@ -15,5 +15,5 @@ Write : 유저가 직접 전광판에 들어갈 텍스트 입력 가능
   -> CSS : overflow / text-overflow / white-space 사용  
   -> JS : offsetWidth 사용, CSS 조작  
   
-모바일 : Android에서는 정상 출력되나 ios에서는 가로 버전일 때, 문장 내 빈 공간(SpaceBar)이 생길 시  
-        텍스트 위에 실선이 나타나는 문제가 있음  
+모바일 : Android에서는 정상 출력 되나 ios에서는 가로 버전일 때, 문장 내 빈 공간(SpaceBar)이 생길 시  
+        텍스트 위에 실 선이 나타나는 문제가 있음  
