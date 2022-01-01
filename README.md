@@ -3,6 +3,7 @@
 ![KakaoTalk_20220101_113457783](https://user-images.githubusercontent.com/89592727/147843216-14ed6a8a-8b4c-4354-ae66-a619f517565c.jpg)  
   
   
+  
 Step : 한 문자씩 출력  
 Play : 200ms당 한 문자씩 자동 출력  
   -> setInterval 함수 사용  
